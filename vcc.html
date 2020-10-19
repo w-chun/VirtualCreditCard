@@ -1,0 +1,39 @@
+<!--
+
+- Heads down exercise.
+- Feel free to google for HTML/CSS/JS documentation.
+
+
+Design and implement a credit card submission form.
+- Prevent bad input.
+- Secure input and submission.
+- Card number should be masked (except for last 4 digits) when focus is lost.
+- Take home: Style with CSS. Make responsive. Inspiration: https://github.com/muhammederdem/vue-interactive-paycard
+
+-->
+
+
+<html>
+<body>
+<form action="https://example.com/pay">
+  <label>Card Number</label>
+  <input id="cc-input" name="number" type="text" inputmode="numeric" maxlength="16" pattern="[0-9\s]{15,16}" /><br/>
+  <input type="submit" value="Submit"/>
+</form>
+</body>
+<style>
+  
+</style>
+<script>
+  const ccInput = document.getElementById("cc-input")
+  var ccNumber = ccInput.value
+  
+  ccInput.addEventListener('blur', () => {
+    ccNumber = ccInput.value
+    ccInput.value = "**** **** ****" + ccNumber.slice(ccNumber.length - 4)
+  })
+  ccInput.addEventListener('focus', () => {
+    ccInput.value = ccNumber
+  })
+</script>
+</html>

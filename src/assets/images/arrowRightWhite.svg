@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Icon/Chevron-KO</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Interaction-States" transform="translate(-2266.000000, -8383.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Icon/Chevron-KO" transform="translate(2260.000000, 8382.000000)">
+                <path d="M10.8448276,6.67816092 L10.8448276,11.9224138 C10.8448276,12.5175482 11.3272794,13 11.9224138,13 C12.5175482,13 13,12.5175482 13,11.9224138 L13,4.07758621 C13,3.48245178 12.5175482,3 11.9224138,3 L4.07758621,3 C3.48245178,3 3,3.48245178 3,4.07758621 C3,4.67272064 3.48245178,5.15517241 4.07758621,5.15517241 L9.32183908,5.15517241 L10.8153861,5.18461393 L10.8448276,6.67816092 Z" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
